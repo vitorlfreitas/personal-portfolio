@@ -24,6 +24,8 @@ interface Props {
 }
 
 const SkillsCard = ({ cardDescription }: Props) => {
+
+
     return (
         <Card
             maxW="sm"
@@ -36,18 +38,21 @@ const SkillsCard = ({ cardDescription }: Props) => {
             }}
             _hover={{
                 cursor: "pointer",
-                transform: "scale(1.02)",
-                boxShadow: "lg",
+                transform: "scale(1.03)",
+                boxShadow: "0 20px 25px -5px rgb(7 89 133 / 0.1), 0 8px 10px -6px rgb(7 89 133 / 0.1)",
+
             }}
         >
-            <Divider />
+            <Divider
+                className="border-gray-800 dark:border-gray-200 my-2"
+             />
             <CardHeader
                 __css={{
                     margin: "5px 0",
                 }}
             >
                 <h3
-                    className="text-2xl text-sky-900 font-semibold text-center md:text-lg"
+                    className="text-2xl text-sky-900 font-semibold text-center md:text-lg dark:text-teal-400"
                 >
                     {cardDescription.title.toUpperCase()}
                 </h3>
@@ -59,16 +64,14 @@ const SkillsCard = ({ cardDescription }: Props) => {
                     borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3">
-                    <p className="text-xl text-gray-800">
+                    <p className="text-xl text-gray-800 md:text-lg dark:text-gray-100">
                         {cardDescription.description}
                     </p>
                 </Stack>
             </CardBody>
             <Divider
-                __css={{
-                    margin: "10px 0",
-                }}
-            />
+                className="border-gray-700 dark:border-gray-200 my-2"
+             />
             <CardFooter
                 __css={{
                     flexDirection: "column",
@@ -81,7 +84,10 @@ const SkillsCard = ({ cardDescription }: Props) => {
                     ))}
                 </div>
             </CardFooter>
-            <Divider />
+            <Divider
+                className="border-gray-700 dark:border-gray-200 my-2"
+             />
+
         </Card>
     );
 };

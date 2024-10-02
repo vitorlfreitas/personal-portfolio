@@ -24,7 +24,7 @@ const skills = [
             alt: "Image of a computer with a Java icon in front of it.",
         },
         description: "Check out what I have learned",
-        technologies: ["Data Structure and Algorithm", "Design Pattern", "Git and Github"],
+        technologies: ["Data Structure", "Algorithm", "Design Pattern"],
     },
 ];
 
