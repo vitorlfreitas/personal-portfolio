@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="mt-14 bg-gray-800 py-6 flex flex-col md:flex-row justify-center items-center gap-8">
             <div className="flex flex-col justify-center items-center gap-2 ">
                 <a
-                    className="shadow w-64 flex items-center gap-2 rounded py-2 px-4 mt-2 bg-purple-900 text-white font-bold text-xl"
+                    className="shadow w-48 flex items-center gap-2 rounded py-2 px-4 mt-2 bg-purple-900 text-white font-bold text-md"
                     href="https://github.com/vitorlfreitas"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -16,7 +16,7 @@ const Footer = () => {
                     MY REPOSITORY
                 </a>
                 <a
-                    className="shadow w-64 flex items-center gap-2 rounded py-2 px-4 mt-2 bg-sky-700 fl text-white font-bold text-xl"
+                    className="shadow w-48 flex items-center gap-2 rounded py-2 px-4 mt-2 bg-sky-700 fl text-white font-bold text-md"
                     href="https://www.linkedin.com/in/vitorlucfreitas/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -25,7 +25,7 @@ const Footer = () => {
                     MY LINKEDIN
                 </a>
             </div>
-            <div className="text-center text-gray-300 text-lg py-2">
+            <div className="text-center text-gray-400 text-sm py-2">
                 <p>Thank you for visiting my website</p>
                 <p>
                     Copyright &copy; Website Developed by{" "}

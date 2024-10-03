@@ -4,7 +4,7 @@ import { FaGithubSquare, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 
 const PageHeader = () => {
     return (
-        <section className="mt-20 md:mt-20 mb-30 page-header-container md:flex md:w-screen md:justify-center md:px-20 md:m-auto lg:px-40 xl:px-60">
+        <div className="mt-20 md:mt-20 mb-30 page-header-container md:flex md:w-screen md:justify-center md:px-20 md:m-auto lg:px-40 xl:px-60">
             <div className="info-container">
                 <div className="text-center py-10 px-4 md:py-8 md:px-0">
                     <h1 className="text-6xl py-2 text-sky-800 font-bold md:text-4xl dark:text-teal-500">
@@ -55,7 +55,7 @@ const PageHeader = () => {
             <div className="mt-5 mx-auto">
                 <Avatar />
             </div>
-        </section>
+        </div>
     );
 };
 
