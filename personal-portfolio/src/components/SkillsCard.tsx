@@ -4,8 +4,7 @@ import {
     CardFooter,
     CardHeader,
     Divider,
-    Image,
-    Stack
+    Image
 } from "@chakra-ui/react";
 import Technology from "./Technology";
 
@@ -63,11 +62,7 @@ const SkillsCard = ({ cardDescription }: Props) => {
                     alt={cardDescription.image.alt}
                     borderRadius="lg"
                 />
-                <Stack mt="6" spacing="3">
-                    <p className="text-xl text-gray-800 md:text-lg dark:text-gray-100">
-                        {cardDescription.description}
-                    </p>
-                </Stack>
+
             </CardBody>
             <Divider
                 className="border-gray-700 dark:border-gray-200 my-2"

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 
 interface Props {
@@ -13,9 +14,7 @@ const NavBar = ({ darkMode, toggleDarkMode }: Props) => {
                 className="font-bebasNeue text-3xl text-gray-700 dark:text-gray-200"
             >
                 Vitor
-                <span className="text-sky-800 dark:text-teal-500">
-                    Freitas
-                </span>
+                <span className="text-sky-800 dark:text-teal-500">Freitas</span>
             </a>
             <ul className="flex gap-4 items-center">
                 <li>
@@ -33,15 +32,14 @@ const NavBar = ({ darkMode, toggleDarkMode }: Props) => {
                     )}
                 </li>
                 <li>
-                    <a
-                        className="shadow-sm bg-gradient-to-r from-sky-700 to-teal-500 text-white px-4 py-2 rounded-md font-bold"
-                        href="#"
-                    >
-                        Resume
-                    </a>
+                    <Link href="/assets/vitor_cv.pdf" target="_blank">
+                        <p className="shadow-sm bg-gradient-to-r from-sky-700 to-teal-500 text-white px-4 py-2 rounded-md font-bold">
+                            Resume
+                        </p>
+                    </Link>
                 </li>
             </ul>
         </nav>
     );
-}
+};
 export default NavBar;

@@ -11,7 +11,7 @@ const MySkills = ({ isMobile }: Props) => {
     return (
         <section>
             <h2 className="mt-3 text-2xl text-gray-800 font-semibold">
-                Getting to Know Better About Me
+                My Skills
             </h2>
             <div>
                 {isMobile ? (

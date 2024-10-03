@@ -9,20 +9,13 @@ const Myself = () => {
             <p className="text-md py-2 leading-8 text-gray-800">
                 I am a passionate student at Griffith College Cork pursuing a
                 degree in Bachelor of Science in Computer Science since 2023.
-                Currently, I have started the 2 stage of this journey.
+                I am currently at the second year of this journey.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
-                During the first stage, I had the opportunity to practice how
-                important and challenging is to work with others people with
-                different ideas. Which successfully led us to concluded one
-                course
+                During the first year, I had the opportunity to practice my social skills working as part of a group project. Although being challenging, I could see the importance and how it, successfully, led us to concluding one of the modules.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800">
-                Besides that, my interesting in Tech has started some years ago.
-                It was when I took a course of Software Development in 2022
-                offered by Senac Brazil and I realized that being a developer is
-                the only thing that fills me completely. Since then, I have been
-                studying everyday trying to improve my skills.
+                Besides that, my interest in Tech has started some years ago, when I took this Software Development course, in 2022, offered by Senac Brazil, and I realized that being a developer is the only thing that fills me completely. Since then, I have been studying every day to improve my skills.
             </p>
         </section>
     );
