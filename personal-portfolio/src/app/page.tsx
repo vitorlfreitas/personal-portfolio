@@ -5,28 +5,17 @@ import SkillsCard from "@/components/SkillsCard";
 import SkillsCarousel from "@/components/SkillsCarousel";
 import { useEffect, useState } from "react";
 import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
-import { FaGithubSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
-import skills from "../data/skills";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithubSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import "../../styles/styles.css";
+import skills from "../data/skills";
 
-import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardHeader,
-    Heading,
-    Text,
-} from "@chakra-ui/react";
-import { p } from "framer-motion/client";
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
     const handleResize = () => {
-        setIsMobile(window.innerWidth < 768); // Tailwind's "md" breakpoint is 768px
+        setIsMobile(window.innerWidth < 768);
     };
 
     useEffect(() => {
