@@ -1,0 +1,8 @@
+/* Personalized Styles */
+
+@media (min-width: 768px) {
+    .md\:image-square {
+        width: 320px;
+        height: 320px;
+    }
+}
