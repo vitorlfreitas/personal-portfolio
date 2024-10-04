@@ -34,7 +34,7 @@ const Projects = ({ isMobile }: Props) => {
                     )}
                     <a
                         className="bg-gradient-to-r from-sky-700 to-teal-500 ml-auto flex gap-2 items-center back w-fit py-1 px-2 rounded my-4 text-gray-100 font-semibold md:my-2"
-                        href="#"
+                        href="https://bartender.vercel.app" target="_blank"
                     >
                         <FaExternalLinkAlt /> Visit Website
                     </a>
